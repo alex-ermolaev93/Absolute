@@ -13,7 +13,7 @@ const flatten = require('gulp-flatten');
 // ejs
 const templates = function () {
     return gulp
-      .src(['src/views/pages/**/*.ejs', '!src/views/pages/**/sections/**/*.ejs', '!src/common/**/*.ejs'])
+      .src(['src/views/pages/**/*.ejs', '!src/views/pages/**/sections/**/*.ejs', '!src/common/**/*.ejs','src/common/**/sections/**/*.ejs'])
       .pipe(gulpEjsMonster().on("error", gulpEjsMonster.preventCrash))
       .pipe(rename({ extname: ".html" }))
       .pipe(flatten())
