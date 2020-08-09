@@ -1,17 +1,18 @@
 .maps {
 
+    &__wrapper {}
 
     &__img {
 
-        height: 500px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: url(../images/maps.png) no-repeat;
+        // height: 500px;
+        // width: 100%;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // background: url(../images/maps.png) no-repeat;
 
-        background-size: cover;
-        overflow: hidden;
+        // background-size: cover;
+        // overflow: hidden;
 
     }
 }
