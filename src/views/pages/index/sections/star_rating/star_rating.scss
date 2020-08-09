@@ -1,0 +1,8 @@
+@import'../../../../../styles/mixins/star_rating';
+
+.star__rating__wrapper{
+    position: relative;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
