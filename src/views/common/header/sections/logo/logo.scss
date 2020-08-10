@@ -6,8 +6,8 @@
 .header__logo__wrapper {
     padding: 31px 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    justify-content: space-between !important;
     z-index: 9;
 }
 
@@ -40,5 +40,15 @@
             border-radius: 1px;
             background-color: #0049b0;
         }
+    }
+}
+@media (max-width: 991px) {
+    .header__logo__wrapper {
+        padding: 31px 0;
+        width: 100%;
+        display: flex !important;
+flex-direction: column;
+
+z-index: 9;
     }
 }
