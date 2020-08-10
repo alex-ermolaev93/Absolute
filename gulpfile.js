@@ -33,6 +33,7 @@ const styles = () => {
         "src/styles/main.scss",
         "src/views/**/*.scss",
         "src/common/**/*.scss",
+        "src/common/**/sections/**/*.scss"
       ])
       .pipe(sourcemaps.init())
       .pipe(sassGlob())

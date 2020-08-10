@@ -31,9 +31,15 @@ $sm-container: 750px;
 }
 .content {
   flex: 1 0 auto;
+   
 } 
 .footer {
+
   flex: 0 0 auto;
+}
+
+.menu__wrapper{
+  position:-webkit-sticky; position:sticky; top:0;
 }
 
 

@@ -1,0 +1,44 @@
+@import '../../../../../styles/fonts.scss';
+@import '../../../../../styles/variables.scss';
+@import '../../../../../styles/mixins/mixins.scss';
+
+
+.header__logo__wrapper {
+    padding: 31px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+}
+
+.logo { 
+
+    &__wrapper {
+        width: 50%;
+    }
+
+    &__search__wrapper {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+    &__search{
+        color: #5e5d5c;
+        padding: 15px;
+        width: 368px;
+        height: 35px;
+        border-radius: 2px;
+        border: 1px solid #a1a1a1;
+        background-color: #ffffff;
+                    outline: none;
+
+        &__btn{
+            width: 76px;
+            height: 35px;
+            border-radius: 1px;
+            background-color: #0049b0;
+        }
+    }
+}
