@@ -1,0 +1,29 @@
+
+.footer {
+    &__wrapper {
+        margin: 54px 0;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        &__title {
+            color: #0049b0;
+            font-family: "Roboto - Bold";
+            font-weight: 700;
+        }
+
+        &__list {
+            line-height: 40px;
+            &__item {
+         
+                &__link{
+                    color: #202020;
+                    font-size: 16px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
